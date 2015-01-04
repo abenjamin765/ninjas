@@ -1,5 +1,5 @@
-@include font-face(Arvo, "http://fonts.googleapis.com/css?family=Arvo:400,700");
-@include font-face(Roboto, "http://fonts.googleapis.com/css?family=Roboto:400,900,300");
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
 
 html{
   font-family: 'Roboto', helvetica, arial, sans-serif
