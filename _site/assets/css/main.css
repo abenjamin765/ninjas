@@ -531,7 +531,7 @@ header {
 
 /* Home */
 .hero {
-  background: url(/assets/img/hero.jpg) center center no-repeat;
+  background: url(../img/hero.jpg) center center no-repeat;
   display: block;
   padding: 200px 0;
   text-align: center;
@@ -581,7 +581,7 @@ header {
     .haiku p .circle {
       height: 300px;
       width: 300px;
-      background: url(/assets/img/photo-ninjas.png) center center no-repeat;
+      background: url(../img/photo-ninjas.png) center center no-repeat;
       border: solid 1px #7ac9b8;
       border-radius: 50%;
       display: block;
