@@ -1,0 +1,60 @@
+---
+title: Work
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ site.title }}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="/img/favicons/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+
+  <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+</head>
+<body>
+  {% include header.html %}
+  
+  <section class="alt-section section-work">
+  
+    <h3 class="heading">Gallery</h3>
+
+    <div class="work-belt">
+      
+      <div class="thumb-wrap">
+        <div class="thumb-container">
+          {% for gal in site.data.settings.gals %}
+          <div class="thumb-unit" data-folder="{{ gal.folder }}">
+          <a href="javascript:void(0)" style="background-image: url(/assets/img/work/{{ gal.folder }}/thumb.jpg);">
+          <div class="thumb-overlay">
+          <strong>{{ gal.name }}</strong>
+          </div>
+          </a>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="work-wrap">
+        <div class="work-container">
+          
+          <a href="javascript:void(0)" class="work-return"> &#8592; Back</a>
+          <h4 class="gal-title"></h4>
+          <div class="gal-load"></div>
+
+         
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <script src="/assets/js/jquery-1.11.2.min.js"></script>
+  <script src="/assets/js/functions.js"></script>
+</body>
+</html>

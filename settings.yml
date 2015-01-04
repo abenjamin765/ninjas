@@ -1,0 +1,11 @@
+# Work Settings
+
+gals:
+- {name: Hello, folder: 'gal-1'}
+- {name: 2, folder: 'gal-2'}
+- {name: 3, folder: 'gal-3'}
+- {name: 4, folder: 'gal-4'}
+- {name: 5, folder: 'gal-5'}
+- {name: 6, folder: 'gal-6'}
+- {name: 7, folder: 'gal-7'}
+- {name: 8, folder: 'gal-8'}

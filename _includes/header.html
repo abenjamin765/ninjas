@@ -1,0 +1,20 @@
+<header>
+	
+	<nav>
+		
+		<a {% if page.url == '/about.html' %}class="active" {% endif %}href="about.html">About</a>
+		<a {% if page.url == '/work.html' %}class="active" {% endif %}href="work.html">Work</a>
+		<a {% if page.url == '/packages.html' %}class="active" {% endif %}href="packages.html">Packages</a>
+		<a {% if page.url == '/contact.html' %}class="active" {% endif %}href="contact.html">Contact</a>
+		<a {% if page.url == '/blog.html' %}class="active" {% endif %}href="blog.html">Blog</a>
+
+
+	</nav>
+
+	<div class="masthead">
+		<a href="/index.html" id="logo">{% include icons/logo.html %}</a>
+		<h1>{{ page.title }}</h1>
+	</div>
+
+</header>
+

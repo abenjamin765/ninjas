@@ -1,0 +1,9 @@
+# Work Settings
+
+gals:
+- {name: Engagements, folder: 'gal-1'}
+- {name: Weddings, folder: 'gal-2'}
+- {name: Boudoir, folder: 'gal-3'}
+- {name: Events, folder: 'gal-4'}
+- {name: Maternity, folder: 'gal-5'}
+- {name: Newborn, folder: 'gal-6'}

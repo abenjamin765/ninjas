@@ -1,0 +1,14 @@
+# Site settings
+title: Atlanta Photo Ninjas
+email: hello@atlantaphotoninjas.com
+description: Your photography ninjas
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://atlantaphotoninjas.com" # the base hostname & protocol for your site
+twitter_username: atlphotoninjas
+
+# Build settings
+markdown: kramdown
+port: 8000
+sass:
+  sass_dir: assets/css
+  style: :nested
