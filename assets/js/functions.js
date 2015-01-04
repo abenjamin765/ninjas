@@ -37,7 +37,7 @@ function workLoad() {
         newTitle = $this.find('strong').text(),
         newFolder = $this.data('folder'),
         spinner = "<div class='loader'>Loading...</div>",
-        newHTML = '/work/'+ newFolder +'.html';
+        newHTML = 'work/'+ newFolder +'.html';
     $('.gal-load').html(spinner).load(newHTML);
     $('.gal-title').text(newTitle);
     console.log(newHTML);
