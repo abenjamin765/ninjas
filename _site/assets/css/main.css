@@ -615,6 +615,25 @@ header {
           padding: 20px;
           border-top: solid 1px #eee; }
 
+.blurb {
+  max-width: 700px;
+  margin: 0 auto;
+  border-top: dotted 2px #ccc;
+  padding: 50px;
+  line-height: 1.5em;
+  text-align: center;
+  color: #999;
+  font-size: 20px; }
+  .blurb .couple-pic {
+    display: block;
+    width: 290px;
+    height: 134px;
+    background-image: url(../img/circle-ninjas.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px auto; }
+
 /* Work */
 .section-work {
   overflow-x: hidden; }
@@ -629,11 +648,12 @@ header {
 
 .thumb-wrap, .work-wrap {
   width: 50%;
-  float: left; }
+  float: left;
+  overflow: hidden; }
 
 .thumb-container {
   max-width: 960px;
-  margin: 0 auto; }
+  margin: 0 auto 50px auto; }
   .thumb-container:after {
     content: "";
     display: table;
