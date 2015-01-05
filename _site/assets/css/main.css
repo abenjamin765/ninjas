@@ -755,3 +755,33 @@ header {
     text-align: center;
     color: white;
     padding: 25px; }
+
+.article {
+  margin: 0 auto;
+  padding: 100px 30px;
+  max-width: 900px; }
+  .article:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .article .avatar {
+    float: left;
+    clear: left;
+    padding-left: 20px;
+    margin-bottom: 20px; }
+    .article .avatar img {
+      height: 75px;
+      width: 75px; }
+  .article .about-block {
+    float: left;
+    max-width: 700px;
+    padding-left: 20px; }
+    .article .about-block h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #7ac9b8;
+      text-transform: uppercase; }
+    .article .about-block p {
+      font-size: 15px;
+      line-height: 1.5em;
+      margin-bottom: 20px; }
