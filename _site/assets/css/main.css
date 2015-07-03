@@ -527,7 +527,7 @@ header {
   text-align: center;
   background-size: cover; }
   .hero h2 {
-    font-size: 75px;
+    font-size: 3.5vw;
     font-family: "arvo", serif;
     font-weight: 900;
     text-transform: uppercase;
@@ -539,8 +539,6 @@ header {
 @media screen and (max-width: 800px) {
   .hero {
     padding: 100px 0; }
-    .hero h2 {
-      font-size: 30px; }
 
   .haiku {
     display: block !important; }
