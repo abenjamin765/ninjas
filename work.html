@@ -1,68 +1,34 @@
 ---
 title: Work
+layout: default
 ---
 
-<!DOCTYPE html>
-<html>
-<head>
-  <title>{{ site.title }}</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
-
-
-  <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-  
-</head>
-<body>
-  {% include header.html %}
-  
-  <section class="alt-section section-work">
-  
-    <h3 class="heading">Gallery</h3>
-
-    <div class="work-belt">
-      
-      <div class="thumb-wrap">
-        <div class="thumb-container">
-          {% for gal in site.data.settings.gals %}
-          <div class="thumb-unit" data-folder="{{ gal.folder }}">
+<section class="alt-section section-work">
+  <h3 class="heading">Gallery</h3>
+  <div class="work-belt">
+    <div class="thumb-wrap">
+      <div class="thumb-container">
+        {% for gal in site.data.settings.gals %}
+        <div class="thumb-unit" data-folder="{{ gal.folder }}">
           <a href="javascript:void(0)" style="background-image: url(assets/img/work/{{ gal.folder }}/thumb.jpg);">
-          <div class="thumb-overlay">
-          <strong>{{ gal.name }}</strong>
-          </div>
+            <div class="thumb-overlay">
+              <strong>{{ gal.name }}</strong>
+            </div>
           </a>
-          </div>
-          {% endfor %}
         </div>
-
-        <section class="blurb">
-          <p>Well look who found our Gallery page! Here you’ll find some of our favorite pictures from our latest photography projects in and around Atlanta.</p>
-        </section>
-        
+        {% endfor %}
       </div>
-
-      <div class="work-wrap">
-        <div class="work-container">
-          
-          <a href="javascript:void(0)" class="work-return"> &#8592; Back</a>
-          <h4 class="gal-title"></h4>
-          <div class="gal-load"></div>
-
-         
-        </div>
-      </div>
-
+      <section class="blurb">
+        <p>Well look who found our Gallery page! Here you’ll find some of our favorite pictures from our latest photography projects in and around Atlanta.</p>
+      </section>
     </div>
+    <div class="work-wrap">
+      <div class="work-container">
+        <a href="javascript:void(0)" class="work-return"> &#8592; Back</a>
+        <h4 class="gal-title"></h4>
+        <div class="gal-load"></div>
+      </div>
+    </div>
+  </div>
+</section>
 
-  </section>
-
-
-
-
-
-  <script src="assets/js/jquery-1.11.2.min.js"></script>
-  <script src="assets/js/functions.js"></script>
-</body>
-</html>
